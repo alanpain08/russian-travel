@@ -2,8 +2,9 @@
   max-width: 690px;
   box-sizing: border-box;
   width: 100%;
-  max-width: calc(100%-100px);
+  max-width: calc(100% - 100px - 394px);
   display: flex;
   flex-direction: column;
-  margin-top: 92px;
+  justify-content: space-between;
+  margin-left: 100px;
 }
