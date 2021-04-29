@@ -2,6 +2,6 @@
   max-width: 984px;
   box-sizing: border-box;
   width: 100%;
-  width: calc(100% - 100px*2);
+  width: calc(100vw - 148px*2);
   margin: 0 auto;
 }

@@ -1,8 +1,6 @@
 .cover {
     max-width: 1184px;
     box-sizing: border-box;
-  width: 100%;
-  min-height: 740px;
-  display: flex;
-  flex-direction: column;
+    width: calc(100vw - 48px*2);
+    min-height: 740px;
 }

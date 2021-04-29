@@ -1,7 +1,6 @@
 .page__container {
   color: #ffff;
   max-width: 1280px;
-  min-width: 320px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -11,6 +10,17 @@
   font-family: 'inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 28px 48px 24px;
+  outline: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__container {
+    max-width: 1024px;
+  }
 }
