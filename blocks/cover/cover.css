@@ -4,3 +4,19 @@
     width: calc(100vw - 48px*2);
     min-height: 740px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        min-height: 640px;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        min-height: 480px;
+        width: 100vw;
+    }
+}

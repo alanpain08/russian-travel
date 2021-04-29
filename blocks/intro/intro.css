@@ -1,9 +1,27 @@
 .intro {
   max-width: 690px;
   box-sizing: border-box;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-left: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+.intro {
+  max-width: 720px;
+  margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 657px) {
+  .intro {
+    max-width: 288px;
+  }
 }

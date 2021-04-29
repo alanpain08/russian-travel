@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));
   grid-template-areas: "title website"
                        "image paragraph";
 
@@ -11,4 +11,32 @@
 
 .place:nth-of-type(5) {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place { 
+    grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place { 
+    gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 657px) {
+  .place {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-areas: "title" 
+                         "website"
+                         "image"
+                         "paragraph";
+
+    gap: 32px;
+    margin-bottom: 50px;
+    justify-items: center;
+}
 }

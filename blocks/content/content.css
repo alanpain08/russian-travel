@@ -5,3 +5,15 @@
   grid-template-columns: 1fr;
   gap: 92px;
 }
+
+@media  screen and (max-width: 768px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 657px) {
+  .content {
+    gap: 64px;
+  }
+}
