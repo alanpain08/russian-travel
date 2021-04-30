@@ -6,3 +6,12 @@
     font-weight: 900;
     margin: 0 0 32px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 657px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.094;
+    margin: 0 0 16px;
+  }
+}
