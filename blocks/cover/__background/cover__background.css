@@ -32,4 +32,5 @@
 
 .cover__background:hover::after {
   opacity: .8;
+  cursor: pointer;
 }
