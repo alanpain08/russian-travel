@@ -2,15 +2,10 @@
   margin: 0 0 26px;
 }
 
-.place__paragraph-text:nth-of-type(2) {
+.place__paragraph-text:last-child {
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph-text {
-    margin: 0 0 25px;
-  }
-}
 
 
 
